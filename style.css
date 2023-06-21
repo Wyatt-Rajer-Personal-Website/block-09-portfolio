@@ -1,16 +1,29 @@
 body {
-  text-align: center;
-  font-family: arial;
+  background-color: rgb(133, 255, 255);
+  /* text-align: center; */
+  font-family: helvetica;
 }
+
+.divider {
+  background-color: rgb(255, 255, 255);
+  margin: 3%;
+  /* position: relative; */
+}
+
+/* nav bar */
 
 .name{
   display: block;
   text-align: center;
-  font-size: 30px;
+  font-size: 3em;
+  padding-top: 2%;
+  color: rgb(83, 219, 219);
+  font-weight: 200;
 }
 
-nav {;
+nav {
   text-align: center;
+  padding-top: 1%;
 }
 
 .active {
@@ -21,6 +34,54 @@ a {
   text-decoration: none;
   color: rgb(253, 153, 253);
   font-size: 2em;
-  padding-left: 4%;
+  font-weight: 600;
+  padding-left: 5%;
 }
 
+/* main content */
+
+main {
+  color: rgb(67, 174, 175);
+  padding-top: 5%;
+}
+
+.websites {
+  padding: 1em;
+  margin: 2em auto;
+}
+
+.websites h2 {
+  color: rgb(83, 219, 219);
+  text-align: center;
+  font-size: 3em;
+  margin: 0 0 1em;
+}
+
+.websites p {
+  font-size: 2em;
+  text-align: center;
+}
+
+img{
+  width: 400px;
+}
+
+.right {
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.left {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  color: rgb(83, 219, 219);
+  padding-top: 10%;
+}
