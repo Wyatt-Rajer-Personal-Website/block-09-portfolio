@@ -1,0 +1,25 @@
+.name{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+
+nav {;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(253, 153, 253);
+  font-size: 2em;
+  padding-left: 4%;
+}
+
+.active {
+  text-decoration: dotted;
+}
+
+body {
+  text-align: center;
+  font-family: arial;
+}
