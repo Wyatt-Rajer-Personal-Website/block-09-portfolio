@@ -1,3 +1,8 @@
+body {
+  text-align: center;
+  font-family: arial;
+}
+
 .name{
   display: block;
   text-align: center;
@@ -8,6 +13,10 @@ nav {;
   text-align: center;
 }
 
+.active {
+  text-decoration: underline;
+}
+
 a {
   text-decoration: none;
   color: rgb(253, 153, 253);
@@ -15,11 +24,3 @@ a {
   padding-left: 4%;
 }
 
-.active {
-  text-decoration: dotted;
-}
-
-body {
-  text-align: center;
-  font-family: arial;
-}
